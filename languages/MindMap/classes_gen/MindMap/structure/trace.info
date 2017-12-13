@@ -8,7 +8,7 @@
       <unit at="10,0,38,0" name="MindMap.structure.LanguageConceptSwitch" />
     </file>
     <file name="StructureAspectDescriptor.java">
-      <unit at="14,0,111,0" name="MindMap.structure.StructureAspectDescriptor" />
+      <unit at="14,0,112,0" name="MindMap.structure.StructureAspectDescriptor" />
     </file>
   </root>
 </debug-info>

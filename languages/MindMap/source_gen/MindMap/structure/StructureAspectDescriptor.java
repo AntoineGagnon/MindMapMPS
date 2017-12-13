@@ -86,6 +86,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.parent(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L);
     b.origin("r:033f28a5-0ba4-492c-b3e5-82f704ef2ca4(MindMap.structure)/4400074615709176447");
     b.aggregate("centralTopic", 0x3d10348ce68f12b1L).target(0x8e85de6d521a4a74L, 0x94fc793b12682f6eL, 0x3d10348ce68f12aaL).optional(true).ordered(true).multiple(false).origin("4400074615709176497").done();
+    b.aggregate("markers", 0x3d10348ce68f1b94L).target(0x8e85de6d521a4a74L, 0x94fc793b12682f6eL, 0x3d10348ce68f1297L).optional(true).ordered(true).multiple(true).origin("4400074615709178772").done();
     b.alias("mindmap");
     return b.create();
   }
