@@ -87,6 +87,15 @@
   <node concept="1TIwiD" id="3Ogd8NAzLaE">
     <property role="EcuMT" value="4400074615709176490" />
     <property role="TrG5h" value="CentralTopic" />
+    <property role="34LRSv" value="centralTopic" />
+    <property role="R4oN_" value="Main topic of our mindmap" />
+    <ref role="1TJDcQ" node="3Ogd8NAzLag" resolve="Topic" />
+  </node>
+  <node concept="1TIwiD" id="3Ogd8NAzLaV">
+    <property role="EcuMT" value="4400074615709176507" />
+    <property role="TrG5h" value="MainTopic" />
+    <property role="34LRSv" value="mainTopic" />
+    <property role="R4oN_" value="Main topics of our mindmap" />
     <ref role="1TJDcQ" node="3Ogd8NAzLag" resolve="Topic" />
   </node>
 </model>
