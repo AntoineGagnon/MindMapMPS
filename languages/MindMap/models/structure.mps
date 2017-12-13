@@ -28,6 +28,7 @@
       </concept>
       <concept id="1071489288298" name="jetbrains.mps.lang.structure.structure.LinkDeclaration" flags="ig" index="1TJgyj">
         <property id="1071599776563" name="role" index="20kJfa" />
+        <property id="1071599893252" name="sourceCardinality" index="20lbJX" />
         <property id="1071599937831" name="metaClass" index="20lmBu" />
         <property id="241647608299431140" name="linkId" index="IQ2ns" />
         <reference id="1071599976176" name="target" index="20lvS9" />
@@ -90,6 +91,13 @@
     <property role="34LRSv" value="centralTopic" />
     <property role="R4oN_" value="Main topic of our mindmap" />
     <ref role="1TJDcQ" node="3Ogd8NAzLag" resolve="Topic" />
+    <node concept="1TJgyj" id="3Ogd8NAzLb0" role="1TKVEi">
+      <property role="IQ2ns" value="4400074615709176512" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="mainTopics" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="3Ogd8NAzLaV" resolve="MainTopic" />
+    </node>
   </node>
   <node concept="1TIwiD" id="3Ogd8NAzLaV">
     <property role="EcuMT" value="4400074615709176507" />
