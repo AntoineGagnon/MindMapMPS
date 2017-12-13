@@ -106,5 +106,12 @@
     <property role="R4oN_" value="Main topics of our mindmap" />
     <ref role="1TJDcQ" node="3Ogd8NAzLag" resolve="Topic" />
   </node>
+  <node concept="1TIwiD" id="3Ogd8NAzLb6">
+    <property role="EcuMT" value="4400074615709176518" />
+    <property role="TrG5h" value="SubTopic" />
+    <property role="34LRSv" value="subTopic" />
+    <property role="R4oN_" value="Low level topic descriptor" />
+    <ref role="1TJDcQ" node="3Ogd8NAzLag" resolve="Topic" />
+  </node>
 </model>
 
