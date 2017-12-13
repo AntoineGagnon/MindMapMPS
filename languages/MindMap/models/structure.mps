@@ -78,5 +78,10 @@
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
   </node>
+  <node concept="1TIwiD" id="3Ogd8NAzLaE">
+    <property role="EcuMT" value="4400074615709176490" />
+    <property role="TrG5h" value="CentralTopic" />
+    <ref role="1TJDcQ" node="3Ogd8NAzLag" resolve="Topic" />
+  </node>
 </model>
 
