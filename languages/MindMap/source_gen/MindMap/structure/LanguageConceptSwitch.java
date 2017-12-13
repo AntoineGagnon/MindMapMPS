@@ -9,11 +9,21 @@ import org.jetbrains.mps.openapi.language.SAbstractConcept;
 
 public final class LanguageConceptSwitch {
   private final LanguageConceptIndex myIndex;
-  public static final int MindMap = 0;
+  public static final int CentralTopic = 0;
+  public static final int MainTopic = 1;
+  public static final int Marker = 2;
+  public static final int Mindmap = 3;
+  public static final int SubTopic = 4;
+  public static final int Topic = 5;
 
   public LanguageConceptSwitch() {
     LanguageConceptIndexBuilder builder = new LanguageConceptIndexBuilder(0x8e85de6d521a4a74L, 0x94fc793b12682f6eL);
-    builder.put(0x3d10348ce68f032aL, MindMap);
+    builder.put(0x3d10348ce68f12aaL, CentralTopic);
+    builder.put(0x3d10348ce68f12bbL, MainTopic);
+    builder.put(0x3d10348ce68f1297L, Marker);
+    builder.put(0x3d10348ce68f127fL, Mindmap);
+    builder.put(0x3d10348ce68f12c6L, SubTopic);
+    builder.put(0x3d10348ce68f1290L, Topic);
     myIndex = builder.seal();
   }
 

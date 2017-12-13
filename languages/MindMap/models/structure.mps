@@ -56,6 +56,13 @@
       <property role="20kJfa" value="centralTopic" />
       <ref role="20lvS9" node="3Ogd8NAzLaE" resolve="CentralTopic" />
     </node>
+    <node concept="1TJgyj" id="3Ogd8NAzLIk" role="1TKVEi">
+      <property role="IQ2ns" value="4400074615709178772" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="markers" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="3Ogd8NAzLan" resolve="Marker" />
+    </node>
   </node>
   <node concept="1TIwiD" id="3Ogd8NAzLag">
     <property role="EcuMT" value="4400074615709176464" />
@@ -68,10 +75,10 @@
     <node concept="PrWs8" id="3Ogd8NAzLah" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
-    <node concept="1TJgyj" id="3Ogd8NAzLa$" role="1TKVEi">
-      <property role="IQ2ns" value="4400074615709176484" />
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="marker" />
+    <node concept="1TJgyj" id="3Ogd8NAzLsV" role="1TKVEi">
+      <property role="IQ2ns" value="4400074615709177659" />
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="mark" />
       <ref role="20lvS9" node="3Ogd8NAzLan" resolve="Marker" />
     </node>
   </node>

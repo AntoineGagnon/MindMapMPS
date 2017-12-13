@@ -9,20 +9,65 @@ import org.jetbrains.mps.openapi.language.SAbstractConcept;
 import jetbrains.mps.smodel.runtime.ConceptPresentationBuilder;
 
 public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase {
-  private ConceptPresentation props_MindMap;
+  private ConceptPresentation props_CentralTopic;
+  private ConceptPresentation props_MainTopic;
+  private ConceptPresentation props_Marker;
+  private ConceptPresentation props_Mindmap;
+  private ConceptPresentation props_SubTopic;
+  private ConceptPresentation props_Topic;
 
   @Override
   @Nullable
   public ConceptPresentation getDescriptor(SAbstractConcept c) {
     StructureAspectDescriptor structureDescriptor = (StructureAspectDescriptor) myLanguageRuntime.getAspect(jetbrains.mps.smodel.runtime.StructureAspectDescriptor.class);
     switch (structureDescriptor.internalIndex(c)) {
-      case LanguageConceptSwitch.MindMap:
-        if (props_MindMap == null) {
+      case LanguageConceptSwitch.CentralTopic:
+        if (props_CentralTopic == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.shortDesc("Main topic of our mindmap");
           cpb.presentationByName();
-          props_MindMap = cpb.create();
+          props_CentralTopic = cpb.create();
         }
-        return props_MindMap;
+        return props_CentralTopic;
+      case LanguageConceptSwitch.MainTopic:
+        if (props_MainTopic == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.shortDesc("Main topics of our mindmap");
+          cpb.presentationByName();
+          props_MainTopic = cpb.create();
+        }
+        return props_MainTopic;
+      case LanguageConceptSwitch.Marker:
+        if (props_Marker == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.shortDesc("Marker to group topics or give specifics about them");
+          cpb.presentationByName();
+          props_Marker = cpb.create();
+        }
+        return props_Marker;
+      case LanguageConceptSwitch.Mindmap:
+        if (props_Mindmap == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.shortDesc("Representation of an idea");
+          cpb.presentationByName();
+          props_Mindmap = cpb.create();
+        }
+        return props_Mindmap;
+      case LanguageConceptSwitch.SubTopic:
+        if (props_SubTopic == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.shortDesc("Low level topic descriptor");
+          cpb.presentationByName();
+          props_SubTopic = cpb.create();
+        }
+        return props_SubTopic;
+      case LanguageConceptSwitch.Topic:
+        if (props_Topic == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.shortDesc("Topic about a subject");
+          props_Topic = cpb.create();
+        }
+        return props_Topic;
     }
     return null;
   }
