@@ -36,6 +36,9 @@
       <concept id="1237305334312" name="jetbrains.mps.lang.textGen.structure.NodeAppendPart" flags="ng" index="l9hG8">
         <child id="1237305790512" name="value" index="lb14g" />
       </concept>
+      <concept id="1237305491868" name="jetbrains.mps.lang.textGen.structure.CollectionAppendPart" flags="ng" index="l9S2W">
+        <child id="1237305945551" name="list" index="lbANJ" />
+      </concept>
       <concept id="1237305557638" name="jetbrains.mps.lang.textGen.structure.ConstantStringAppendPart" flags="ng" index="la8eA">
         <property id="1237305576108" name="value" index="lacIc" />
       </concept>
@@ -57,6 +60,9 @@
       </concept>
       <concept id="1138056143562" name="jetbrains.mps.lang.smodel.structure.SLinkAccess" flags="nn" index="3TrEf2">
         <reference id="1138056516764" name="link" index="3Tt5mk" />
+      </concept>
+      <concept id="1138056282393" name="jetbrains.mps.lang.smodel.structure.SLinkListAccess" flags="nn" index="3Tsc0h">
+        <reference id="1138056546658" name="link" index="3TtcxE" />
       </concept>
     </language>
   </registry>
@@ -163,6 +169,24 @@
             <property role="lacIc" value="\\end{document}" />
           </node>
           <node concept="l8MVK" id="6c2EttGckxv" role="lcghm" />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="WtQ9Q" id="6c2EttGclXB">
+    <ref role="WuzLi" to="f7iy:3Ogd8NAzLaE" resolve="CentralTopic" />
+    <node concept="11bSqf" id="6c2EttGclXC" role="11c4hB">
+      <node concept="3clFbS" id="6c2EttGclXD" role="2VODD2">
+        <node concept="lc7rE" id="6c2EttGclXX" role="3cqZAp">
+          <node concept="l9S2W" id="6c2EttGclYl" role="lcghm">
+            <node concept="2OqwBi" id="6c2EttGcm5g" role="lbANJ">
+              <node concept="117lpO" id="6c2EttGclYJ" role="2Oq$k0" />
+              <node concept="3Tsc0h" id="6c2EttGcme1" role="2OqNvi">
+                <ref role="3TtcxE" to="f7iy:3Ogd8NAzLb0" resolve="mainTopics" />
+              </node>
+            </node>
+          </node>
+          <node concept="l8MVK" id="6c2EttGcmjd" role="lcghm" />
         </node>
       </node>
     </node>
