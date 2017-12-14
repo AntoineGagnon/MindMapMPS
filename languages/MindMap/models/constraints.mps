@@ -6,11 +6,8 @@
     <devkit ref="00000000-0000-4000-0000-5604ebd4f22c(jetbrains.mps.devkit.aspect.constraints)" />
   </languages>
   <imports>
-    <import index="wsj3" ref="r:ef93c731-b162-456f-913d-c9966adae0a7(MindMapLanguage.structure)" />
-    <import index="mfku" ref="r:27d9148a-1915-4ec2-9716-0d0605ad8210(MindMapLanguage.behavior)" />
-    <import index="mfku" ref="r:27d9148a-1915-4ec2-9716-0d0605ad8210(MindMapLanguage.behavior)" />
-    <import index="f7iy" ref="r:033f28a5-0ba4-492c-b3e5-82f704ef2ca4(MindMap.structure)" implicit="true" />
-    <import index="ayqv" ref="r:37013b21-58ca-41b0-9c2d-cb30a86e11c6(MindMap.behavior)" implicit="true" />
+    <import index="f7iy" ref="r:033f28a5-0ba4-492c-b3e5-82f704ef2ca4(MindMap.structure)" />
+    <import index="ayqv" ref="r:37013b21-58ca-41b0-9c2d-cb30a86e11c6(MindMap.behavior)" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -105,7 +102,7 @@
                   <ref role="3cqZAo" node="3Ogd8NA_jkz" resolve="n" />
                 </node>
                 <node concept="1mIQ4w" id="3Ogd8NA_p7I" role="2OqNvi">
-                  <node concept="chp4Y" id="3Ogd8NACwZG" role="cj9EA">
+                  <node concept="chp4Y" id="6c2EttGbigM" role="cj9EA">
                     <ref role="cht4Q" to="f7iy:3Ogd8NAzLan" resolve="Marker" />
                   </node>
                 </node>

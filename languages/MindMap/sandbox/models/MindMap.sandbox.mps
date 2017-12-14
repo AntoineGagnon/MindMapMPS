@@ -19,7 +19,9 @@
       <concept id="4400074615709176507" name="MindMap.structure.MainTopic" flags="ng" index="3rBMoR">
         <child id="4400074615709176523" name="subTopics" index="3rBMp7" />
       </concept>
-      <concept id="4400074615709176518" name="MindMap.structure.SubTopic" flags="ng" index="3rBMpa" />
+      <concept id="4400074615709176518" name="MindMap.structure.SubTopic" flags="ng" index="3rBMpa">
+        <child id="4400074615709176525" name="subSubTopics" index="3rBMp1" />
+      </concept>
       <concept id="4400074615709176447" name="MindMap.structure.Mindmap" flags="ng" index="3rBMrN">
         <child id="4400074615709176497" name="centralTopic" index="3rBMoX" />
         <child id="4400074615709178772" name="markers" index="3rBMWo" />
@@ -54,6 +56,51 @@
     </node>
     <node concept="3rBMor" id="3Ogd8NAE0pq" role="3rBMWo">
       <property role="TrG5h" value="3" />
+    </node>
+    <node concept="3rBMor" id="6c2EttGc8RB" role="3rBMWo">
+      <property role="TrG5h" value="4" />
+    </node>
+    <node concept="3rBMor" id="6c2EttGc8RG" role="3rBMWo">
+      <property role="TrG5h" value="5" />
+    </node>
+    <node concept="3rBMor" id="6c2EttGc8RM" role="3rBMWo">
+      <property role="TrG5h" value="6" />
+    </node>
+  </node>
+  <node concept="3rBMrN" id="3Ogd8NAE0pS">
+    <property role="TrG5h" value="Autoroute" />
+    <node concept="3rBMor" id="3Ogd8NAE0qt" role="3rBMWo">
+      <property role="TrG5h" value="1" />
+    </node>
+    <node concept="3rBMor" id="3Ogd8NAE0qw" role="3rBMWo">
+      <property role="TrG5h" value="2" />
+    </node>
+    <node concept="3rBMor" id="3Ogd8NAE0q_" role="3rBMWo">
+      <property role="TrG5h" value="2" />
+    </node>
+    <node concept="3rBMoA" id="3Ogd8NAE0qG" role="3rBMoX">
+      <property role="TrG5h" value="Infrastructure" />
+      <node concept="3rBMoR" id="3Ogd8NAE0qJ" role="3rBMpc">
+        <property role="TrG5h" value="Routes" />
+        <node concept="3rBMpa" id="3Ogd8NAEulZ" role="3rBMp7">
+          <property role="TrG5h" value="Matériaux" />
+          <node concept="3rBMpa" id="3Ogd8NAEum2" role="3rBMp1">
+            <property role="TrG5h" value="Béton" />
+          </node>
+          <node concept="3rBMpa" id="3Ogd8NAEum8" role="3rBMp1">
+            <property role="TrG5h" value="Goudron" />
+          </node>
+        </node>
+      </node>
+      <node concept="3rBMoR" id="3Ogd8NAE4Hz" role="3rBMpc">
+        <property role="TrG5h" value="Financement" />
+        <node concept="3rBMpa" id="3Ogd8NAEumd" role="3rBMp7">
+          <property role="TrG5h" value="Péages" />
+        </node>
+        <node concept="3rBMpa" id="3Ogd8NAEumg" role="3rBMp7">
+          <property role="TrG5h" value="Impôts" />
+        </node>
+      </node>
     </node>
   </node>
 </model>

@@ -8,8 +8,7 @@
   </languages>
   <imports>
     <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" />
-    <import index="wsj3" ref="r:ef93c731-b162-456f-913d-c9966adae0a7(MindMapLanguage.structure)" />
-    <import index="f7iy" ref="r:033f28a5-0ba4-492c-b3e5-82f704ef2ca4(MindMap.structure)" implicit="true" />
+    <import index="f7iy" ref="r:033f28a5-0ba4-492c-b3e5-82f704ef2ca4(MindMap.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
   </imports>
@@ -173,14 +172,14 @@
           <node concept="2OqwBi" id="3Ogd8NABire" role="3cqZAk">
             <node concept="2OqwBi" id="3Ogd8NABgSc" role="2Oq$k0">
               <node concept="13iPFW" id="3Ogd8NABgID" role="2Oq$k0" />
-              <node concept="3TrcHB" id="3Ogd8NABh3D" role="2OqNvi">
+              <node concept="3TrcHB" id="6c2EttGbeTP" role="2OqNvi">
                 <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
               </node>
             </node>
             <node concept="liA8E" id="3Ogd8NABj9V" role="2OqNvi">
               <ref role="37wK5l" to="wyt6:~String.equalsIgnoreCase(java.lang.String):boolean" resolve="equalsIgnoreCase" />
               <node concept="2OqwBi" id="3Ogd8NABjv1" role="37wK5m">
-                <node concept="37vLTw" id="3Ogd8NABjdg" role="2Oq$k0">
+                <node concept="37vLTw" id="6c2EttGbfK9" role="2Oq$k0">
                   <ref role="3cqZAo" node="3Ogd8NABgH_" resolve="otherMarker" />
                 </node>
                 <node concept="3TrcHB" id="3Ogd8NABjI6" role="2OqNvi">
