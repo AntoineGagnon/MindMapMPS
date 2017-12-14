@@ -7,6 +7,7 @@
     <classNode dependClassName="MindMap.editor.EditorAspectDescriptorImpl" />
     <classNode dependClassName="MindMap.structure.ConceptPresentationAspectImpl" />
     <classNode dependClassName="MindMap.structure.StructureAspectDescriptor" />
+    <classNode dependClassName="MindMap.textGen.TextGenAspectDescriptor" />
     <classNode dependClassName="MindMap.typesystem.TypesystemDescriptor" />
     <classNode dependClassName="java.lang.Class" />
     <classNode dependClassName="java.lang.Override" />
@@ -23,6 +24,7 @@
     <classNode dependClassName="jetbrains.mps.smodel.runtime.ConstraintsAspectDescriptor" />
     <classNode dependClassName="jetbrains.mps.smodel.runtime.ILanguageAspect" />
     <classNode dependClassName="jetbrains.mps.smodel.runtime.StructureAspectDescriptor" />
+    <classNode dependClassName="jetbrains.mps.text.rt.TextGenAspectDescriptor" />
     <classNode dependClassName="org.jetbrains.mps.openapi.language.SLanguage" />
     <classNode extendsClassName="jetbrains.mps.smodel.language.LanguageRuntime" />
   </dependency>

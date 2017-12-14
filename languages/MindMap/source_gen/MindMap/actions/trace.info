@@ -11,7 +11,7 @@
     </file>
   </root>
   <root nodeRef="r:bb409406-2445-4f6a-8e84-35b0a4fd8c79(MindMap.actions)/7134451502406337690">
-    <file name="DefaultNodeFactory_.java">
+    <file name="IncrementMarker.java">
       <node id="7134451502406337705" at="15,91,16,412" concept="0" />
       <node id="7134451502406337691" at="15,0,18,0" concept="1" trace="setup#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SModel;)V" />
       <scope id="7134451502406337691" at="15,91,16,412" />
@@ -21,8 +21,8 @@
         <var name="newNode" id="7134451502406337691" />
         <var name="sampleNode" id="7134451502406337691" />
       </scope>
-      <unit id="7134451502406337691" at="14,0,19,0" name="MindMap.actions.DefaultNodeFactory_$NodeFactory_7134451502406337691" />
-      <unit id="7134451502406337690" at="13,0,20,0" name="MindMap.actions.DefaultNodeFactory_" />
+      <unit id="7134451502406337691" at="14,0,19,0" name="MindMap.actions.IncrementMarker$NodeFactory_7134451502406337691" />
+      <unit id="7134451502406337690" at="13,0,20,0" name="MindMap.actions.IncrementMarker" />
     </file>
   </root>
 </debug-info>

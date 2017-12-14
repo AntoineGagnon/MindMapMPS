@@ -18,7 +18,7 @@ public class ActionAspectDescriptorImpl extends BaseActionAspectDescriptor imple
     if (LANGUAGE_FQ_NAME.equals(concept.getLanguage().getQualifiedName())) {
       switch (Arrays.binarySearch(stringSwitchCases_tpto26_a0a0a0c, concept.getName())) {
         case 0:
-          return Collections.<NodeFactory>singletonList(new DefaultNodeFactory_.NodeFactory_7134451502406337691());
+          return Collections.<NodeFactory>singletonList(new IncrementMarker.NodeFactory_7134451502406337691());
         default:
       }
     }

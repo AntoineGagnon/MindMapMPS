@@ -10,7 +10,7 @@ import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import MindMap.behavior.Mindmap__BehaviorDescriptor;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 
-public class DefaultNodeFactory_ {
+public class IncrementMarker {
   public static class NodeFactory_7134451502406337691 implements NodeFactory {
     public void setup(SNode newNode, SNode sampleNode, SNode enclosingNode, SModel model) {
       SPropertyOperations.set(newNode, MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name"), String.valueOf((int) Mindmap__BehaviorDescriptor.getHighestMarkerNumber_id1gcAXZmqZqg.invoke(SNodeOperations.cast(enclosingNode, MetaAdapterFactory.getConcept(0x8e85de6d521a4a74L, 0x94fc793b12682f6eL, 0x3d10348ce68f127fL, "MindMap.structure.Mindmap"))) + 1));
