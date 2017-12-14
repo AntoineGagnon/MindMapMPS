@@ -10,7 +10,16 @@
   <registry>
     <language id="8e85de6d-521a-4a74-94fc-793b12682f6e" name="MindMap">
       <concept id="4400074615709176471" name="MindMap.structure.Marker" flags="ng" index="3rBMor" />
-      <concept id="4400074615709176490" name="MindMap.structure.CentralTopic" flags="ng" index="3rBMoA" />
+      <concept id="4400074615709176464" name="MindMap.structure.Topic" flags="ng" index="3rBMos">
+        <reference id="4400074615709177659" name="marker" index="3rBMeR" />
+      </concept>
+      <concept id="4400074615709176490" name="MindMap.structure.CentralTopic" flags="ng" index="3rBMoA">
+        <child id="4400074615709176512" name="mainTopics" index="3rBMpc" />
+      </concept>
+      <concept id="4400074615709176507" name="MindMap.structure.MainTopic" flags="ng" index="3rBMoR">
+        <child id="4400074615709176523" name="subTopics" index="3rBMp7" />
+      </concept>
+      <concept id="4400074615709176518" name="MindMap.structure.SubTopic" flags="ng" index="3rBMpa" />
       <concept id="4400074615709176447" name="MindMap.structure.Mindmap" flags="ng" index="3rBMrN">
         <child id="4400074615709176497" name="centralTopic" index="3rBMoX" />
         <child id="4400074615709178772" name="markers" index="3rBMWo" />
@@ -24,17 +33,28 @@
   </registry>
   <node concept="3rBMrN" id="3Ogd8NAzLIh">
     <property role="TrG5h" value="Test" />
-    <node concept="3rBMoA" id="3Ogd8NACuHp" role="3rBMoX" />
+    <node concept="3rBMoA" id="3Ogd8NACuHp" role="3rBMoX">
+      <property role="TrG5h" value="Work" />
+      <ref role="3rBMeR" node="3Ogd8NAD0G9" resolve="2" />
+      <node concept="3rBMoR" id="3Ogd8NAE0px" role="3rBMpc">
+        <property role="TrG5h" value="Cpicpi" />
+        <ref role="3rBMeR" node="3Ogd8NAD0G1" resolve="1" />
+      </node>
+      <node concept="3rBMoR" id="3Ogd8NAE0pB" role="3rBMpc">
+        <property role="TrG5h" value="grozghzr" />
+        <node concept="3rBMpa" id="3Ogd8NAE0pG" role="3rBMp7" />
+      </node>
+      <node concept="3rBMoR" id="3Ogd8NAE0pJ" role="3rBMpc" />
+    </node>
     <node concept="3rBMor" id="3Ogd8NAD0G1" role="3rBMWo">
       <property role="TrG5h" value="1" />
     </node>
     <node concept="3rBMor" id="3Ogd8NAD0G9" role="3rBMWo">
       <property role="TrG5h" value="2" />
     </node>
-    <node concept="3rBMor" id="3Ogd8NAD0GQ" role="3rBMWo">
-      <property role="TrG5h" value="2" />
+    <node concept="3rBMor" id="3Ogd8NAE0pq" role="3rBMWo">
+      <property role="TrG5h" value="3" />
     </node>
-    <node concept="3rBMor" id="3Ogd8NAD0GX" role="3rBMWo" />
   </node>
 </model>
 

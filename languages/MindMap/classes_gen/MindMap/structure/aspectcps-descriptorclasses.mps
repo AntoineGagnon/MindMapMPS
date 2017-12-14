@@ -2343,7 +2343,7 @@
                     <node concept="liA8E" id="cV" role="2OqNvi">
                       <ref role="37wK5l" to="bzg8:~ConceptDescriptorBuilder2.associate(java.lang.String,long):jetbrains.mps.smodel.runtime.impl.ConceptDescriptorBuilder2$AssociationLinkBuilder" resolve="associate" />
                       <node concept="Xl_RD" id="cW" role="37wK5m">
-                        <property role="Xl_RC" value="mark" />
+                        <property role="Xl_RC" value="marker" />
                       </node>
                       <node concept="1adDum" id="cX" role="37wK5m">
                         <property role="1adDun" value="0x3d10348ce68f173bL" />
