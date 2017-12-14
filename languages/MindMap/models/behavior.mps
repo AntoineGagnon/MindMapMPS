@@ -178,7 +178,7 @@
               </node>
             </node>
             <node concept="liA8E" id="3Ogd8NABj9V" role="2OqNvi">
-              <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
+              <ref role="37wK5l" to="wyt6:~String.equalsIgnoreCase(java.lang.String):boolean" resolve="equalsIgnoreCase" />
               <node concept="2OqwBi" id="3Ogd8NABjv1" role="37wK5m">
                 <node concept="37vLTw" id="3Ogd8NABjdg" role="2Oq$k0">
                   <ref role="3cqZAo" node="3Ogd8NABgH_" resolve="otherMarker" />
