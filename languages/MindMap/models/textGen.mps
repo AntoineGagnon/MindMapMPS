@@ -191,5 +191,40 @@
       </node>
     </node>
   </node>
+  <node concept="WtQ9Q" id="6c2EttGcm_G">
+    <ref role="WuzLi" to="f7iy:3Ogd8NAzLaV" resolve="MainTopic" />
+    <node concept="11bSqf" id="6c2EttGcm_H" role="11c4hB">
+      <node concept="3clFbS" id="6c2EttGcm_I" role="2VODD2">
+        <node concept="lc7rE" id="6c2EttGcmA2" role="3cqZAp">
+          <node concept="la8eA" id="6c2EttGcmAq" role="lcghm">
+            <property role="lacIc" value="\\section{" />
+          </node>
+          <node concept="l9hG8" id="6c2EttGcmC3" role="lcghm">
+            <node concept="2OqwBi" id="6c2EttGcmM2" role="lb14g">
+              <node concept="117lpO" id="6c2EttGcmCZ" role="2Oq$k0" />
+              <node concept="3TrcHB" id="6c2EttGcmVn" role="2OqNvi">
+                <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+              </node>
+            </node>
+          </node>
+          <node concept="la8eA" id="6c2EttGcn0W" role="lcghm">
+            <property role="lacIc" value="}" />
+          </node>
+          <node concept="l8MVK" id="6c2EttGcn6W" role="lcghm" />
+        </node>
+        <node concept="lc7rE" id="6c2EttGcniw" role="3cqZAp">
+          <node concept="l9S2W" id="6c2EttGcnly" role="lcghm">
+            <node concept="2OqwBi" id="6c2EttGcnsF" role="lbANJ">
+              <node concept="117lpO" id="6c2EttGcnlW" role="2Oq$k0" />
+              <node concept="3Tsc0h" id="6c2EttGcn_s" role="2OqNvi">
+                <ref role="3TtcxE" to="f7iy:3Ogd8NAzLbb" resolve="subTopics" />
+              </node>
+            </node>
+          </node>
+          <node concept="l8MVK" id="6c2EttGcnEv" role="lcghm" />
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 
